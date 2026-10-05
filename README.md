@@ -6,8 +6,17 @@ it runs on  vmware workstation pro ubutuntu 20.04 lts
 and is ran using 
 
 sudo apt update
+
+
+
 sudo apt install -y build-essential linux-headers-$(uname -r)
+
+make
+
 chmod +x test.sh
+
+
+
 ./test.sh
 
 make clean
